@@ -1,0 +1,130 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_Log_In"
+        android:icon="@drawable/ic_microphone_on_50"
+        android:title="Log In"/>
+    <item
+        android:id="@+id/menu_setting"
+        android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/menu_shape"
+                android:icon="@drawable/ic_microphone_on_50"
+                android:title="Shape">
+                <menu>
+                    <item
+                        android:id="@+id/rectangle"
+                        android:checkable="true"
+                        android:title="Rectangle"/>
+                    <item
+                        android:id="@+id/circle"
+                        android:checkable="true"
+                        android:title="Circle"/>
+                    <item
+                        android:id="@+id/random"
+                        android:title="Random"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menu_size"
+                android:title="Size">
+                <menu>
+                    <item
+                        android:id="@+id/small"
+                        android:title="Small"/>
+                    <item
+                        android:id="@+id/medium "
+                        android:title="Medium"/>
+                    <item
+                        android:id="@+id/large"
+                        android:title="Large"/>
+                    <item
+                        android:id="@+id/extra"
+                        android:title="Extra Large"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menu_color"
+                android:title="Color">
+                <menu>
+                    <item
+                        android:id="@+id/red"
+                        android:title="Red"/>
+                    <item
+                        android:id="@+id/white"
+                        android:title="White"/>
+                    <item
+                        android:id="@+id/yellow"
+                        android:title="Yellow"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menu_speed"
+                android:title="Speed">
+                <menu>
+                    <item
+                        android:id="@+id/slow"
+                        android:title="Slow"/>
+                    <item
+                        android:id="@+id/medium2"
+                        android:title="Medium"/>
+                    <item
+                        android:id="@+id/fast"
+                        android:title="Fast"/>
+                    <item
+                        android:id="@+id/extra2"
+                        android:title="Extra Fast"/>
+                    <item
+                        android:id="@+id/random2"
+                        android:title="Random"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menu_num"
+                android:title="Number ">
+                <menu>
+                    <item
+                        android:id="@+id/min"
+                        android:title="Min"/>
+                    <item
+                        android:id="@+id/medium3"
+                        android:title="Medium"/>
+                    <item
+                        android:id="@+id/max"
+                        android:title="Max"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/menu_bakcground"
+                android:title="Background">
+                <menu>
+                    <item
+                        android:id="@+id/black"
+                        android:title="Black"/>
+                    <item
+                        android:id="@+id/grey"
+                        android:title="Grey"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/menu_m1" android:title="Module 1" /><item
+        android:id="@+id/menu_m2"
+        android:title="Module 2"/><item
+        android:id="@+id/menu_m3"
+        android:title="Module 3"/>
+    <item
+        android:id="@+id/menu_item_camera"
+        android:icon="@drawable/ic_camera_50"
+        android:title="Take a picture"/>
+    <item
+        android:id="@+id/menu_item_reset"
+        android:icon="@drawable/ic_no_50"
+        android:title="Reset"/>
+    <item
+        android:id="@+id/menu_item_about"
+        android:icon="@drawable/ic_help_50"
+        android:title="About"/>
+
+</menu>

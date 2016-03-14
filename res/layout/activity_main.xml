@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="GLass Rehab"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textSpeed"
+        android:layout_alignBottom="@+id/textSpeed"
+        android:layout_alignParentLeft="true"
+        android:text="Color:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textShape"
+        android:layout_alignBottom="@+id/textShape"
+        android:layout_centerHorizontal="true"
+        android:text="Size:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textSize"
+        android:layout_alignParentTop="true"
+        android:text="Speed:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textShape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="17dp"
+        android:text="Shape:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Number:"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textSize"
+        android:text="Background:"
+        android:textSize="23sp" />
+
+</RelativeLayout>
